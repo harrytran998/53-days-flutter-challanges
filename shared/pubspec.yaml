@@ -1,4 +1,4 @@
-name: shared package
+name: "shared_config"
 version: 1.0.0+1
 description: Package to shared config for entire app
 author: Harry Tran <nhattq.coding@gmail.com>
@@ -9,11 +9,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_dotenv: ^2.1.0
 
-  #dev_dependencies
+dev_dependencies:
+  pedantic: ^1.9.2
+  flutter_test:
+    sdk: flutter
 
-  #flutter:
-  #  uses-material-design: true
+flutter:
+  uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
   # assets:
