@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_dotenv: ^2.1.0
+  ansicolor: ^1.1.1
 
 dev_dependencies:
   pedantic: ^1.9.2
