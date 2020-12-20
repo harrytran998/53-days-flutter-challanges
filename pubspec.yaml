@@ -1,0 +1,9 @@
+name: "challanges_flutter"
+version: 1.0.1
+repository: https://github.com/harrytran998/53-days-flutter-challanges
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dev_dependencies:
+  ansicolor: ^1.1.1

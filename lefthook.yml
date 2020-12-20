@@ -1,4 +1,4 @@
 commit-msg:
   commands:
     validate:
-      run: dart run shared/lib/verifyCommitMsg.dart 
+      run: dart run scripts/verifyCommitMsg.dart 
