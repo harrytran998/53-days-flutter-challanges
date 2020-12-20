@@ -4,7 +4,7 @@ description: Package to shared config for entire app(env, lints, scripts)
 repository: https://github.com/harrytran998/53-days-flutter-challanges/shared
 
 environment:
-  sdk: ">=2.9.0 <3.0.0"
+  sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
   flutter_dotenv: ^2.1.0
