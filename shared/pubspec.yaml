@@ -1,5 +1,5 @@
 name: "shared_config"
-version: 1.0.2
+version: 1.0.3
 description: Package to shared config for entire app(env, lints, scripts)
 repository: https://github.com/harrytran998/53-days-flutter-challanges/tree/main/shared
 

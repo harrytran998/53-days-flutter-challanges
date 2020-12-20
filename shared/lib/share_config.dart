@@ -1,3 +1,5 @@
+library shared_config;
+
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class AppConfigEnv {

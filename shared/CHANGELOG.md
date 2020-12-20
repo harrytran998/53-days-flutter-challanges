@@ -1,3 +1,7 @@
+## 1.0.3
+
+- Update libs instance
+
 ## 1.0.2
 
 - Update lint rules
