@@ -6,10 +6,10 @@ import 'tab_navigator.dart';
 
 class App extends StatefulWidget {
   @override
-  State<StatefulWidget> createState() => AppState();
+  State<StatefulWidget> createState() => _AppState();
 }
 
-class AppState extends State<App> {
+class _AppState extends State<App> {
   var _currentTab = TabItem.red;
   final _navigatorKeys = {
     TabItem.red: GlobalKey<NavigatorState>(),
