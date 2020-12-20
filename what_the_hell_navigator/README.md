@@ -1,6 +1,6 @@
-# what_the_hell_navigation
+# what_the_hell_navigator
 
-To party with Navigation Flutter
+A new Flutter project.
 
 ## Getting Started
 

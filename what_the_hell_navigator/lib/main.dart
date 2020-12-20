@@ -1,25 +1,25 @@
-import "package:flutter/material.dart";
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
-  Widget build(BuildContext context) => MaterialApp(
-      title: "Flutter Demo",
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter XX',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: "Flutter Demo Home Page"),
+      home: MyHomePage(title: 'Flutter XXX'),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({Key key, this.title}) : super(key: key);
 
   final String title;
 
@@ -37,7 +37,8 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   @override
-  Widget build(BuildContext context)  => Scaffold(
+  Widget build(BuildContext context) {
+    return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
       ),
@@ -46,10 +47,10 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              "You have pushed the button this many times:",
+              'You have pushed the button this many times:',
             ),
             Text(
-              "$_counter",
+              '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
           ],
@@ -57,9 +58,9 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
-        tooltip: "Increment",
+        tooltip: 'Increment',
         child: Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ),
     );
   }
 }
