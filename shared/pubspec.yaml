@@ -2,10 +2,9 @@ name: "shared_config"
 version: 1.0.0
 description: Package to shared config for entire app(env, lints, scripts)
 repository: https://github.com/harrytran998/53-days-flutter-challanges/shared
-author: Harry Tran <nhattq.coding@gmail.com>
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.9.0 <3.0.0"
 
 dependencies:
   flutter_dotenv: ^2.1.0
