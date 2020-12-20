@@ -1,3 +1,8 @@
+## 1.0.4
+
+- Remove config env libs
+- Add Tailwind Theme/Unit base
+
 ## 1.0.3
 
 - Update libs instance

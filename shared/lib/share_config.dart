@@ -1,33 +1,6 @@
 library shared_config;
 
-import 'package:flutter_dotenv/flutter_dotenv.dart';
-
-class AppConfigEnv {
-  String baseApiUrl;
-  String env;
-
-  AppConfigEnv() {
-    this.baseApiUrl = DotEnv().env['BASE_API_URL'];
-    this.env = DotEnv().env['ENV'];
-  }
-
-  static AppConfigEnv _instance;
-
-  static loadEnv(String env) async {
-    await DotEnv().load('env/$env');
-  }
-
-  // use Static block, caching the values improves performance - accessing  directly many times is bad
-  static AppConfigEnv getInstance() {
-    if (_instance == null) {
-      _instance = AppConfigEnv();
-      return _instance;
-    }
-    return _instance;
-  }
-}
-
-class MyTheme {
+class TailwindUnit {
   // Follow TailwindCss base config
   static const unit0 = 0;
   static const unitBase = 1.0;
@@ -50,6 +23,11 @@ class MyTheme {
   static const unit14 = 56.0;
   static const unit16 = 64.0;
   static const unit20 = 80.0;
+}
+
+class TailwindTheme {
+
+  static final _colorScheme = ColorScheme();
 
   static const regular = FontWeight.w400;
   static const semiBold = FontWeight.w600;

@@ -1,10 +1,17 @@
 name: "shared_config"
-version: 1.0.3
-description: Package to shared config for entire app(env, lints, scripts)
+version: 1.0.4
+description: Package to shared theme style for entire app
 repository: https://github.com/harrytran998/53-days-flutter-challanges/tree/main/shared
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
-  flutter_dotenv: ^2.1.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  pedantic: ^1.9.2
+
+flutter:
+  uses-material-design: true
