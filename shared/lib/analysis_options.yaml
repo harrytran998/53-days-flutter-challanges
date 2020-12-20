@@ -47,7 +47,7 @@ linter:
     - unnecessary_this
     - use_function_type_syntax_for_parameters
     # custom
-    - prefer_double_quotes
+    - prefer_single_quotes
     - unnecessary_statements
     - directives_ordering
     - file_names
@@ -123,7 +123,7 @@ analyzer:
     unnecessary_this: error
     use_function_type_syntax_for_parameters: error
     # custom
-    prefer_double_quotes: error
+    prefer_single_quotes: error
     unnecessary_statements: error
     directives_ordering: error
     file_names: error
