@@ -11,7 +11,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  i_pedantic: ^1.0.0
+  shared_config: ^1.0.1
 
 flutter:
   uses-material-design: true
