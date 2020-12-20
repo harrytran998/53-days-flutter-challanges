@@ -1,5 +1,5 @@
 name: "shared_config"
-version: 1.0.1
+version: 1.0.2
 description: Package to shared config for entire app(env, lints, scripts)
 repository: https://github.com/harrytran998/53-days-flutter-challanges/tree/main/shared
 
@@ -8,4 +8,3 @@ environment:
 
 dependencies:
   flutter_dotenv: ^2.1.0
-  ansicolor: ^1.1.1
